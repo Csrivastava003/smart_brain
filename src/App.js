@@ -148,7 +148,7 @@ displayFaceBox=(box)=>
     .then(response =>
       {
         if (response.status === 200) {
-          fetch('http://localhost:3000/image',
+          fetch('https://smartbrainbackend-whdb.onrender.com/image',
           {
             method:'put',
               headers:{'Content-Type':'application/json'},
